@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
+/* Add the official Lenis setup CSS right here */
+@import "lenis/dist/lenis.css";
+
 @theme {
   /* Colors */
   --color-background: #F5F5F5;
   --color-brand-dark: #141414;
   --color-brand-light: #FFFFFF;
-  --color-brand-purple: #A0ADFF; /* From the shadow screenshot */
-  
+  --color-brand-purple: #A0ADFF;
+  /* From the shadow screenshot */
+
   /* Borders */
   --color-grid-line: #D6D6D6;
 
@@ -16,7 +20,7 @@
   /* Custom Shadows */
   --shadow-heavy-button: 0 50px 80px -20px rgba(0, 0, 0, 0.25);
   --shadow-chat-box: 0 20px 40px -10px rgba(0, 0, 0, 0.05);
-  
+
   /* The new Hover Glow Shadow */
   --shadow-glow-button: 0 50px 80px -20px rgba(160, 173, 255, 0.30);
 }
